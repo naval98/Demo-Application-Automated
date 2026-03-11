@@ -3,12 +3,6 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
-            steps {
-                git 'https://github.com/naval98/Demo-Application-Automated.git'
-            }
-        }
-
         stage('Build Project') {
             steps {
                 bat 'mvn clean'
