@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-03-11T20:47:40 IST" name="Default suite" finished-at="2026-03-11T20:47:40 IST" duration-ms="267">
+    <groups>
+      <group name="smoke, end to end">
+        <method signature="TestingApplication.selectedOptions()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="selectedOptions" class="demoTesting.TestingApplication"/>
+      </group> <!-- smoke, end to end -->
+      <group name="re-testing">
+        <method signature="TestingApplication.Phone()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="Phone" class="demoTesting.TestingApplication"/>
+      </group> <!-- re-testing -->
+      <group name="smoke">
+        <method signature="TestingApplication.Address()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="Address" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.DatePicker2()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="DatePicker2" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.Femaleradiobutton()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="Femaleradiobutton" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.FirstName()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="FirstName" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.FromDate()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="FromDate" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.Maleradiobutton()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="Maleradiobutton" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.Monday()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="Monday" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.ToDate()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="ToDate" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.dropdown()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="dropdown" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.submit()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="submit" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.uploadfile1()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="uploadfile1" class="demoTesting.TestingApplication"/>
+        <method signature="TestingApplication.uploadfile2()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="uploadfile2" class="demoTesting.TestingApplication"/>
+      </group> <!-- smoke -->
+      <group name="regression, sanity">
+        <method signature="TestingApplication.title()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="title" class="demoTesting.TestingApplication"/>
+      </group> <!-- regression, sanity -->
+      <group name="Adhoc">
+        <method signature="TestingApplication.DatePicker1()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" name="DatePicker1" class="demoTesting.TestingApplication"/>
+      </group> <!-- Adhoc -->
+    </groups>
+    <test started-at="2026-03-11T20:47:40 IST" name="Default test" finished-at="2026-03-11T20:47:40 IST" duration-ms="267">
+      <class name="demoTesting.TestingApplication">
+        <test-method signature="Address()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="Address" finished-at="2026-03-11T20:47:40 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Address -->
+        <test-method signature="DatePicker1()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="DatePicker1" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatePicker1 -->
+        <test-method signature="DatePicker2()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="DatePicker2" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DatePicker2 -->
+        <test-method signature="Femaleradiobutton()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="Femaleradiobutton" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Femaleradiobutton -->
+        <test-method signature="FirstName()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="FirstName" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FirstName -->
+        <test-method signature="FromDate()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="FromDate" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FromDate -->
+        <test-method signature="Maleradiobutton()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="Maleradiobutton" finished-at="2026-03-11T20:47:40 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Maleradiobutton -->
+        <test-method signature="Monday()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="Monday" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Monday -->
+        <test-method signature="Phone()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="Phone" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Phone -->
+        <test-method signature="ToDate()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="ToDate" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ToDate -->
+        <test-method signature="dropdown()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="dropdown" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+        <test-method signature="selectedOptions()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="selectedOptions" finished-at="2026-03-11T20:47:40 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectedOptions -->
+        <test-method signature="submit()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="submit" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submit -->
+        <test-method signature="title()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="title" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- title -->
+        <test-method signature="uploadfile1()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="uploadfile1" finished-at="2026-03-11T20:47:40 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile1 -->
+        <test-method signature="uploadfile2()[pri:0, instance:demoTesting.TestingApplication@5a5a729f]" started-at="2026-03-11T20:47:40 IST" name="uploadfile2" finished-at="2026-03-11T20:47:40 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uploadfile2 -->
+      </class> <!-- demoTesting.TestingApplication -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
