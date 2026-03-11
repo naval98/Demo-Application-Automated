@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Code') {
             steps {
-                git 'https://github.com/yourusername/DemoTest-Automation.git'
+                git 'https://github.com/naval98/Demo-Application-Automated.git'
             }
         }
 
